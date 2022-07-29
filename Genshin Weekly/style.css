@@ -1,0 +1,135 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-navbar {
+    background-color: #39625c;
+    width: auto;
+    height: 5.5vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: left;
+    align-items: left;
+    height: 4vh;
+}
+
+.li-img {
+    width: auto;
+    height: 5.5vh;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 0.8em 1.5em;
+    color: white;
+    margin: 4px;
+    font-size: 12px;
+    border-radius: 1px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 1.5vh;
+    width: auto;
+    margin: 0.3em 1;
+
+
+}
+
+.li-navbar:hover {
+    background-color: #c8b08e;
+    transition: .5s ease-in-out;
+    margin: 4px;
+    transition-delay: .3s;
+    padding: 0.8em 2.5em;
+    border-radius: 1px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    margin: 0.3em 1;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.container-content {
+    background-color: black;
+    background-image: url(background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91.5vh;
+}
+
+.img-content {
+    width: auto;
+    height: 70%;
+}
+
+.img-content2 {
+    width: 50%;
+    height: 50%;
+}
+
+.a-content {
+    background-color: #39625c;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 100%;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.a-content:hover {
+    background-color: #c8b08e;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+.container-footer {
+    height: 3vh;
+    background-color: #39625c;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.f1-footer {
+    list-style-type: none;
+    padding: 1px;
+    color: white;
+    margin: 5px;
+    font-size: 5px;
+
+}
+
+.img-content2 {
+    width: auto;
+    height: 3vh;
+}
+
+.li-footer {
+    width: 100%;
+    height: 10%;
+    font-size: 8;
+}
